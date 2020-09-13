@@ -7,10 +7,10 @@
             ppl.forEach(p => {
                 $("#my-table tbody").append(
                     `<tr>
-                        <td class="f">${p.firstname}</td>
-                        <td class="l">${p.lastname}</td>
-                        <td class="a">${p.age}</td>
-                        <td class"e"><button class="btn btn-success edit" data-edit="${p.id}">Edit</button></td>
+                        <td>${p.firstname}</td>
+                        <td>${p.lastname}</td>
+                        <td>${p.age}</td>
+                        <td><button class="btn btn-success edit" data-edit="${p.id}">Edit</button></td>
                          <td><button class="btn btn-danger delete" data-delete="${p.id}">Delete</button></td>
                     <tr>`
                 )
